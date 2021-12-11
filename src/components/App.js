@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/App.css";
-import Clock from "./Clock";
+import Timer from "./Timer";
 
-const App = () => {
+function App() {
   return (
     <div id="main">
-      <Clock />
+      <Timer />
     </div>
   );
-};
+}
 
 export default App;
